@@ -7,12 +7,12 @@
 
 # Set the working directory
 
-setwd("~/datasets/titanic")
+setwd("~/MachineLearningRepository/Titanic: Machine Learning from Disaster")
 
 # Import the training set: train
 # Your working directory might vary
 
-train <- read.csv("~/datasets/titanic/train.csv")
+train <- read.csv("~/MachineLearningRepository/Titanic: Machine Learning from Disaster/train.csv")
 
 # viewing the "train" dataframe in raw format
 
@@ -24,7 +24,7 @@ View(train)
 
 # Import the testing set: test
 
-test <- read_csv("~/datasets/titanic/test.csv")
+test <- read_csv("~/MachineLearningRepository/Titanic: Machine Learning from Disaster/test.csv")
 
 # Print test dataframe to the console
 
